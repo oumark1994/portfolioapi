@@ -34,7 +34,7 @@ app.use(express.static('public'))
 app.use(helmet());
 app.use(morgan("common"));
 app.use(cors({
-    origin:[],
+    origin:[""],
     methods:["POST", "GET"],
     credentials:true
 }))
